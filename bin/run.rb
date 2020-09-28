@@ -2,6 +2,7 @@
 
 require_relative "../lib/api_communicator.rb"
 require_relative "../lib/command_line_interface.rb"
+require_relative "../lib/nonexistent_character_error.rb"
 
 welcome
 character = get_character_from_user
